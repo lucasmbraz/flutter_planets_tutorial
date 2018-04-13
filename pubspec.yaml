@@ -5,6 +5,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  mockito: "^2.2.3"
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

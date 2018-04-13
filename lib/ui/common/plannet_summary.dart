@@ -41,7 +41,7 @@ class PlanetSummary extends StatelessWidget {
           children: <Widget>[
             new Image.asset(image, height: 12.0),
             new Container(width: 8.0),
-            new Text(planet.gravity, style: Style.smallTextStyle),
+            new Text(value, style: Style.smallTextStyle),
           ]
         ),
       );
