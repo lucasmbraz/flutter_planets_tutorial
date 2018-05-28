@@ -1,14 +1,25 @@
-# flutter planets tutorial
+# Refactoring a Legacy Flutter App
 
-This project contains the steps followed on the tutorial on sergiandreplace.com.
+![App preview][0]
 
-Each lesson will correspond to a single branch with the name of the post where you'll be able to find the result of what is explained in the article
+This project contains all the code used in the *"Refactoring a Legacy Flutter App"* series.
 
-Remember all the graphical assets and the design is created by Vijay Verma
+Each post in the series has a correspondent branch as follows:
 
-* Lesson 1: [Planets-Flutter: From design to app](http://sergiandreplace.com/2017/09/planets-flutter-from-design-to-app/)
-* Lesson 2: [Planets-Flutter: creating a Planet card](http://sergiandreplace.com/2017/09/planets-flutter-creating-a-planet-card/)
-* Lesson 3: [Planets-Flutter: adding content to the card](http://sergiandreplace.com/2017/10/planets-flutter-adding-content-to-the-card/)
-* Lesson 4: [Planets-Flutter: creating a list of planets](http://sergiandreplace.com/2017/10/planets-flutter-creating-a-list-of-planets/)
-* Lesson 5: [Planets-Flutter: routing and navigation](http://sergiandreplace.com/2017/12/planets-flutter-routing-and-navigation/)
-* Lesson 6: [Planets-Flutter: planet detail page](http://sergiandreplace.com/2018/02/planets-flutter-planet-detail-page//)
+* [Part 1: Widget Tests][3]
+* [Part 2: MVP][4]
+
+## Credits
+
+This app was originally created by [Sergi Martínez][1] and designed by [Vijay Verma][2].
+
+<!-- Preview -->
+[0]: images/planets-preview.png
+
+<!-- Credits -->
+[1]: https://github.com/sergiandreplace/flutter_planets_tutorial
+[2]: https://www.uplabs.com/posts/space-travel-ui
+
+<!-- Branches -->
+[3]: https://github.com/lucasmbraz/planets/tree/part-1
+[4]: https://github.com/lucasmbraz/planets/tree/part-2
