@@ -7,6 +7,9 @@ Finder findImage(String imageDesc) {
       if (widget.image is AssetImage) {
         AssetImage assetImage = widget.image;
         return imageDesc == assetImage.assetName;
+      } else if (widget.image is NetworkImage) {
+        NetworkImage networkImage = widget.image;
+        return imageDesc == networkImage.url;
       }
     }
     return false;
