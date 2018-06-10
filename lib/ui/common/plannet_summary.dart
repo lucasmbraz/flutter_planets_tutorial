@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_planets_tutorial/model/planets.dart';
 import 'package:flutter_planets_tutorial/ui/common/separator.dart';
-import 'package:flutter_planets_tutorial/ui/detail/detail_page.dart';
 import 'package:flutter_planets_tutorial/ui/text_style.dart';
 
 class PlanetSummary extends StatelessWidget {
 
   final Planet planet;
   final bool horizontal;
+  final Function onTap;
 
-  PlanetSummary(this.planet, {this.horizontal = true});
+  PlanetSummary(this.planet, {this.onTap, this.horizontal = true});
 
-  PlanetSummary.vertical(this.planet): horizontal = false;
+  PlanetSummary.vertical(this.planet, {this.onTap}): horizontal = false;
 
 
   @override
@@ -107,15 +107,7 @@ class PlanetSummary extends StatelessWidget {
 
 
     return new GestureDetector(
-      onTap: horizontal
-          ? () => Navigator.of(context).push(
-            new PageRouteBuilder(
-              pageBuilder: (_, __, ___) => new DetailPage(planet),
-              transitionsBuilder: (context, animation, secondaryAnimation, child) =>
-                new FadeTransition(opacity: animation, child: child),
-              ) ,
-            )
-          : null,
+      onTap: onTap,
       child: new Container(
         margin: const EdgeInsets.symmetric(
           vertical: 16.0,
