@@ -16,12 +16,12 @@ Each post in the series has a correspondent branch as follows:
 This app was originally created by [Sergi Martínez][5] and designed by [Vijay Verma][6].
 
 <!-- Travis -->
-[0]: https://travis-ci.org/lucasmbraz/planets.svg?branch=part-1
+[0]: https://travis-ci.org/lucasmbraz/planets.svg?branch=part-2
 [1]: https://travis-ci.org/lucasmbraz/planets
 
 <!-- Coveralls -->
-[2]: https://coveralls.io/repos/github/lucasmbraz/planets/badge.svg?branch=part-1
-[3]: https://coveralls.io/github/lucasmbraz/planets?branch=master
+[2]: https://coveralls.io/repos/github/lucasmbraz/planets/badge.svg?branch=part-2
+[3]: https://coveralls.io/github/lucasmbraz/planets?branch=part-2
 
 <!-- Preview -->
 [4]: images/planets-preview.png
