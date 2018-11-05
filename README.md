@@ -1,8 +1,10 @@
-# Refactoring a Legacy Flutter App
+# Planets
 
 ![App preview][0]
 
-This project contains all the code used in the *"Refactoring a Legacy Flutter App"* series.
+Fictitious Flutter app for booking interplanetary trips.
+
+This repository contains the code used in the [*"Refactoring a Legacy Flutter App"*][5] series. It shows: 1) how to perform a safe refactoring; 2) how to implement a robust testing strategy using widget and integrations tests; and 3) how to architect the app following the MVP pattern.
 
 Each post in the series has a correspondent branch as follows:
 
@@ -23,3 +25,6 @@ This app was originally created by [Sergi Martínez][1] and designed by [Vijay V
 <!-- Branches -->
 [3]: https://github.com/lucasmbraz/planets/tree/part-1
 [4]: https://github.com/lucasmbraz/planets/tree/part-2
+
+<!-- Medium -->
+[5]: https://medium.com/@lucasmbraz/refactoring-a-legacy-flutter-app-part-1-f5d40521f830
